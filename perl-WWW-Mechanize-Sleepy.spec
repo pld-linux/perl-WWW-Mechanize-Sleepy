@@ -3,8 +3,8 @@
 %bcond_with	tests	# perform "make test" (requires Internet connection)
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	WWW
-%define	pnam	Mechanize-Sleepy
+%define		pdir	WWW
+%define		pnam	Mechanize-Sleepy
 Summary:	WWW::Mechanize::Sleepy - provide pauses to WWW::Mechanize
 Summary(pl):	WWW::Mechanize::Sleepy - dodanie przerw do WWW::Mechanize
 Name:		perl-WWW-Mechanize-Sleepy
