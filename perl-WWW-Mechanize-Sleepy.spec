@@ -4,8 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	WWW
-%define	pnam	Mechanize
-%define	psub	Sleepy
+%define	pnam	Mechanize-Sleepy
 Summary:	WWW::Mechanize::Sleepy - provide pauses to WWW::Mechanize
 Summary(pl):	WWW::Mechanize::Sleepy - dodanie przerw do WWW::Mechanize
 Name:		perl-WWW-Mechanize-Sleepy
@@ -13,7 +12,7 @@ Version:	0.5
 Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{psub}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	142c9844559c96cc610ddd1ff8c29d21
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -36,7 +35,7 @@ WWW::Mechanize::Sleepy udostêpnia podklasê WWW::Mechanize
 umo¿liwiaj±c± wprowadzanie przerw miêdzy zapytaniami serwera.
 
 %prep
-%setup -q -n %{pdir}-%{pnam}-%{psub}-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 echo "y" | %{__perl} Makefile.PL \
