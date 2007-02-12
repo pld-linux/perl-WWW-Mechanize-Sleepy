@@ -6,7 +6,7 @@
 %define		pdir	WWW
 %define		pnam	Mechanize-Sleepy
 Summary:	WWW::Mechanize::Sleepy - provide pauses to WWW::Mechanize
-Summary(pl):	WWW::Mechanize::Sleepy - dodanie przerw do WWW::Mechanize
+Summary(pl.UTF-8):   WWW::Mechanize::Sleepy - dodanie przerw do WWW::Mechanize
 Name:		perl-WWW-Mechanize-Sleepy
 Version:	0.5
 Release:	1
@@ -30,9 +30,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 WWW::Mechanize::Sleepy subclasses WWW::Mechanize to provide pauses
 between your server requests.
 
-%description -l pl
-WWW::Mechanize::Sleepy udostêpnia podklasê WWW::Mechanize
-umo¿liwiaj±c± wprowadzanie przerw miêdzy zapytaniami serwera.
+%description -l pl.UTF-8
+WWW::Mechanize::Sleepy udostÄ™pnia podklasÄ™ WWW::Mechanize
+umoÅ¼liwiajÄ…cÄ… wprowadzanie przerw miÄ™dzy zapytaniami serwera.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
