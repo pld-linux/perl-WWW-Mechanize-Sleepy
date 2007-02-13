@@ -6,7 +6,7 @@
 %define		pdir	WWW
 %define		pnam	Mechanize-Sleepy
 Summary:	WWW::Mechanize::Sleepy - provide pauses to WWW::Mechanize
-Summary(pl.UTF-8):   WWW::Mechanize::Sleepy - dodanie przerw do WWW::Mechanize
+Summary(pl.UTF-8):	WWW::Mechanize::Sleepy - dodanie przerw do WWW::Mechanize
 Name:		perl-WWW-Mechanize-Sleepy
 Version:	0.5
 Release:	1
