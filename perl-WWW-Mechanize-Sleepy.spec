@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test" (requires Internet connection)
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	WWW
 %define		pnam	Mechanize-Sleepy
 Summary:	WWW::Mechanize::Sleepy - provide pauses to WWW::Mechanize
