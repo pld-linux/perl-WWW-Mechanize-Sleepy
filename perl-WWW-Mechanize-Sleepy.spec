@@ -8,7 +8,7 @@ Summary:	WWW::Mechanize::Sleepy - provide pauses to WWW::Mechanize
 Summary(pl.UTF-8):	WWW::Mechanize::Sleepy - dodanie przerw do WWW::Mechanize
 Name:		perl-WWW-Mechanize-Sleepy
 Version:	0.7
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/WWW/%{pdir}-%{pnam}-%{version}.tar.gz
